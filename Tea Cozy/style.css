@@ -1,0 +1,133 @@
+/* Website Global Styling */
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+}
+.section_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a {
+  color: seashell;
+}
+a:link {
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+/* Website Header */
+header  {
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img  {
+  height: 50px;
+  margin-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span  {
+  display: inline-block;
+  padding: 20px 10px;
+}
+/* Website Content Container */
+.content_container {
+  padding-top: 69px;
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+}
+/* Mission Section */
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+#mission .section_contents {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+/* Featured Tea Section */
+#teas  {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding: 70px;
+}
+.tea_details {
+  padding: 5px;
+}
+.tea_details img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.tea_details span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+/* Locations Section */
+.section_container.store_locations  {
+  padding: 5px;
+}
+#store_locations  {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding: 70px;
+}
+#store_locations .section_container {
+  margin: auto;
+  width: 1100px;
+}
+.store  {
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  background-color: black;
+  margin: 5px 20px;
+  flex-direction: column;
+  jastify--content: center;
+  flex-basis: 200px;
+  justify-content: center;
+  opacity: 1.0;
+}
+/* Contact Details Section */
+#contact_details  {
+  height: 200px;
+}
+/* Website Footer */
+footer  {
+  text-align: left;
+  padding-left: 20px;
+}
